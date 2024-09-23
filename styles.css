@@ -17,6 +17,7 @@ flex: 1;
 nav {
 background-color: #787878;
 display: flex;
+justify-content: flex-end;
 }
 
 a {
@@ -66,4 +67,11 @@ p {
   text-align: justify;
   text-decoration: none;
   
+}
+h2 {
+  color: blue;
+}
+
+a:hover {
+  background-color:lightblue ;
 }
