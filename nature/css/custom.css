@@ -147,12 +147,69 @@
 
 p {
   margin: 20px 20px 20px 20px;
-  font-size: x-large;
+  font-size: large;
   text-align: justify;
 }
 
 .image-right {
   display: block;
-  width: 30%;
+  width: 40%;
+ 
   margin: 0 auto;
 } 
+
+.left-nav {
+  text-decoration: none;
+  color: rgb(8, 111, 245);
+}
+
+.left-nav:hover {
+  background-color: rgba(255, 255, 255, .25);
+  color:  rgba(8, 31, 230, 0.712);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(8, 111, 245);
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, .25);
+  color:  rgba(8, 31, 230, 0.712);
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #ccc; /* Line color */
+  width: 80%; /* Line width */
+  margin: 20px auto; /* Center the line */
+}
+
+.foot {
+  margin: 10px 0; /* Margin for footer text */
+  color: #333; /* Text color */
+}
+
+.animal {
+  text-align: center;
+  margin: 50px 50px 50px 50px;
+  color: rgba(60, 129, 231, 0.959);
+}
+
+.animal-container {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.animal-image {
+  width: 275px;
+  height: 180px;
+  margin: 30px 30px 30px 30px;
+}
