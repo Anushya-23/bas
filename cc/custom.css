@@ -15,12 +15,8 @@
 
 
 
-.justify-content-center {
-    justify-content: center !important;
-    
-  }
-  
-  .hexagon {
+
+.hexagon {
     position: relative;
     width: 200px; 
     height: 115.47px; 
@@ -30,16 +26,7 @@
     
     
 }
-.bg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 10px;
-    
-    
-    
-}
+
 .hexagon img {
     width: 100%; 
     height: auto; 
@@ -49,21 +36,18 @@
     transform: translate(-50%, -50%); 
     padding: 10px;
 }
-.con {
-    background-image: url(images/image11.jpg);
-    padding: 20px;
-}
+
 
 .container {
     text-align: justify;
 }
 footer {
-    background-color: rgba(116, 12, 8, 0.3);
-    padding: 50px;
+    background-color: rgba(116, 12, 8, 0.1);
+    
 }
 a {
     color: rgba(177, 74, 74, 0.795);
-    
+    text-decoration: none;
 }
 .b-example-divider {
     width: 100%;
@@ -136,4 +120,10 @@ body {
 
   strong {
     color: brown;
+  }
+  h1,h2,h3,h4,h5 {
+    color: brown;
+    }
+  .bg-color {
+    background-color: #f8d7da;
   }
